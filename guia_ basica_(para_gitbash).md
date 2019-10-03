@@ -13,13 +13,13 @@
 5. git checkout -b nombredemitree
 
 ------------------------------------------------------------------------------
-## si necesito descargar actualizaciones que hicieron otros
+## si necesito descargar actualizaciones que hicieron otros:
 
 git pull 
 
 ------------------------------------------------------------------------------
 
-# Para subir mis actualizaciones
+# Para subir mis actualizaciones:
 
 ## si no he llegado a configurar el github:
 
@@ -33,7 +33,7 @@ git pull
 ## si ya lo configuré ignorar pasos 1. y 2.
 
 ------------------------------------------------------------------------------
-# Otros comandos
+# Otros comandos:
 
 * rm para borrar.
 * ls (para ver que archivos hay)
@@ -46,3 +46,14 @@ git pull
 4. quitar la credencial de github (git:https//github.com)
 
 ## de esta manera no podrán editar mis proyectos otras personas.
+
+
+## si me sale el siguiente error:
+
+fatal: The current branch mybranch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin mybranch
+
+Copio y pego esta linea: git push --set-upstream origin mybranch
+es como hacerse un auto-pull, que hay que aprobar desde la página de github.
